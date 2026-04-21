@@ -4362,6 +4362,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1007191368562525242, guid: 55ea0c187f48b434fbbea93b7d38f5a1, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2709420432447737399, guid: 55ea0c187f48b434fbbea93b7d38f5a1, type: 3}
       propertyPath: timeToWait
       value: 5
@@ -5228,6 +5232,10 @@ PrefabInstance:
     - target: {fileID: 981756714854295679, guid: 55ea0c187f48b434fbbea93b7d38f5a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007191368562525242, guid: 55ea0c187f48b434fbbea93b7d38f5a1, type: 3}
+      propertyPath: m_Mass
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2709420432447737399, guid: 55ea0c187f48b434fbbea93b7d38f5a1, type: 3}
       propertyPath: timeToWait
@@ -6459,6 +6467,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 445596894}
     m_Modifications:
     - target: {fileID: 1030413187166174202, guid: df583ba5535b74cfb8dafcb46d163802, type: 3}
+      propertyPath: speed
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030413187166174202, guid: df583ba5535b74cfb8dafcb46d163802, type: 3}
       propertyPath: playOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -6634,7 +6646,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3981969341958909475, guid: 28319f9fe995d4b2fb0504fc2cd31b1c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.509125
+      value: 7.62
       objectReference: {fileID: 0}
     - target: {fileID: 3981969341958909475, guid: 28319f9fe995d4b2fb0504fc2cd31b1c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6642,7 +6654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3981969341958909475, guid: 28319f9fe995d4b2fb0504fc2cd31b1c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 52.248566
+      value: 51.14
       objectReference: {fileID: 0}
     - target: {fileID: 3981969341958909475, guid: 28319f9fe995d4b2fb0504fc2cd31b1c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7719,7 +7731,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3981969341958909475, guid: 28319f9fe995d4b2fb0504fc2cd31b1c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.748001
+      value: -9.76
       objectReference: {fileID: 0}
     - target: {fileID: 3981969341958909475, guid: 28319f9fe995d4b2fb0504fc2cd31b1c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7727,7 +7739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3981969341958909475, guid: 28319f9fe995d4b2fb0504fc2cd31b1c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.420929
+      value: 26.52
       objectReference: {fileID: 0}
     - target: {fileID: 3981969341958909475, guid: 28319f9fe995d4b2fb0504fc2cd31b1c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8984,6 +8996,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 445596894}
     m_Modifications:
     - target: {fileID: 1030413187166174202, guid: df583ba5535b74cfb8dafcb46d163802, type: 3}
+      propertyPath: speed
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030413187166174202, guid: df583ba5535b74cfb8dafcb46d163802, type: 3}
       propertyPath: playOnStart
       value: 0
       objectReference: {fileID: 0}
@@ -9350,12 +9366,20 @@ PrefabInstance:
       value: -250
       objectReference: {fileID: 0}
     - target: {fileID: 5463429406456277220, guid: e41ae09749e5845e4a96783089864bcc, type: 3}
+      propertyPath: jumpValues.jumpForce
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 5463429406456277220, guid: e41ae09749e5845e4a96783089864bcc, type: 3}
+      propertyPath: wallJumpValues.jumpForce
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 5463429406456277220, guid: e41ae09749e5845e4a96783089864bcc, type: 3}
       propertyPath: groundMovementValues.moveFriction
       value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5463429406456277220, guid: e41ae09749e5845e4a96783089864bcc, type: 3}
       propertyPath: doubleJumpValues.Array.data[0].jumpForce
-      value: 500
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 8050944258052664781, guid: e41ae09749e5845e4a96783089864bcc, type: 3}
       propertyPath: m_Name
